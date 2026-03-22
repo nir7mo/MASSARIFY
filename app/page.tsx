@@ -1,4 +1,5 @@
 import { DashboardPreviewSection } from "@/components/dashboard-preview-section";
+import { ExpenseTrackerSection } from "@/components/expense-tracker-section";
 import { FinalCtaSection } from "@/components/final-cta-section";
 import { HeroSection } from "@/components/hero-section";
 import { PricingSection } from "@/components/pricing-section";
@@ -12,6 +13,7 @@ export default function Home() {
       <ProblemSection />
       <SolutionSection />
       <DashboardPreviewSection />
+      <ExpenseTrackerSection />
       <PricingSection />
       <FinalCtaSection />
     </main>
