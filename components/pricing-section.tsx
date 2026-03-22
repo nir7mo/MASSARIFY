@@ -22,7 +22,7 @@ export function PricingSection() {
           <h3 className="mt-3 text-2xl font-bold text-slate-950">اشتراك بسيط: 1$ شهرياً</h3>
           <p className="mt-4 text-slate-700">وصول سهل ودائم لتنظيم أفضل وادخار أوضح لهدفك القادم.</p>
           <Link
-            href="#cta"
+            href="/demo"
             className="mt-6 inline-flex rounded-full bg-brand-500 px-5 py-3 text-base font-semibold text-white transition hover:bg-brand-600"
           >
             جرّب الآن

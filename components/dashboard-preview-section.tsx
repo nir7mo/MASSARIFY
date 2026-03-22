@@ -2,11 +2,11 @@ import { SectionHeading } from "@/components/section-heading";
 import { SectionWrapper } from "@/components/section-wrapper";
 
 const stats = [
-  { label: "الراتب", value: "500$" },
-  { label: "المصروف", value: "320$" },
-  { label: "المتبقي", value: "180$" },
-  { label: "الهدف", value: "شراء هاتف" },
-  { label: "المدخر", value: "120$ من 300$" }
+  { label: "الميزانية الشهرية", value: "1400 دج" },
+  { label: "مصروف اليوم 12", value: "120 دج" },
+  { label: "إجمالي المصروف", value: "860 دج" },
+  { label: "المتبقي", value: "540 دج" },
+  { label: "أقل من الشهر الماضي", value: "8%" }
 ];
 
 export function DashboardPreviewSection() {
@@ -14,8 +14,8 @@ export function DashboardPreviewSection() {
     <SectionWrapper id="preview">
       <SectionHeading
         eyebrow="معاينة بسيطة"
-        title="لوحة واضحة بدون تعقيد"
-        description="هذه مجرد معاينة خفيفة لكيفية عرض المعلومات المهمة للمستخدم داخل MASSARIFY."
+        title="لوحة شهرية مفهومة من أول نظرة"
+        description="الفكرة ليست مجرد إدخال مصاريف، بل تحويلها إلى أرقام تساعدك تعرف وضعك الآن وما الذي قد يحدث حتى نهاية الشهر."
       />
       <div className="rounded-[2rem] border border-brand-100 bg-white p-5 shadow-card sm:p-7">
         <div className="mb-5 flex items-center justify-between rounded-[1.5rem] bg-brand-50 px-5 py-4">
@@ -24,7 +24,7 @@ export function DashboardPreviewSection() {
             <p className="mt-1 text-lg font-bold text-slate-950">MASSARIFY Dashboard</p>
           </div>
           <div className="rounded-full bg-white px-3 py-1 text-sm font-semibold text-brand-700">
-            تجريبي
+            لحظي
           </div>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">

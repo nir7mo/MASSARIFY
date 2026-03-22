@@ -3,13 +3,11 @@
 واجهة عربية بسيطة لفكرة SaaS اسمها **MASSARIFY** مبنية بـ **Next.js + TypeScript + Tailwind CSS**.
 
 الصفحة تعرض:
-- قسم تعريفي رئيسي
-- المشكلة
-- الحل
-- معاينة Dashboard بسيطة
-- قالب لحساب المصاريف الشهرية مع تحديث لحظي
-- الأسعار
-- دعوة أخيرة للتجربة
+- صفحة رئيسية تسويقية لشرح الفكرة
+- صفحة تجربة على المسار `/demo`
+- تسجيل يومي للمصاريف حسب اليوم من الشهر
+- مصاريف ثابتة مثل الإيجار والاشتراكات
+- تحليل شهري لحظي ومقارنة مع الشهر الماضي
 
 ## المتطلبات
 
@@ -54,18 +52,23 @@ npm start
 ```text
 MASSARIFY/
 ├─ app/
+│  ├─ demo/
+│  │  └─ page.tsx
 │  ├─ globals.css
 │  ├─ layout.tsx
 │  └─ page.tsx
 ├─ components/
 │  ├─ dashboard-preview-section.tsx
+│  ├─ expense-tracker-section.tsx
 │  ├─ final-cta-section.tsx
 │  ├─ hero-section.tsx
 │  ├─ pricing-section.tsx
 │  ├─ problem-section.tsx
+│  ├─ site-header.tsx
 │  ├─ section-heading.tsx
 │  ├─ section-wrapper.tsx
-│  └─ solution-section.tsx
+│  ├─ solution-section.tsx
+│  └─ value-props-section.tsx
 ├─ .gitignore
 ├─ next.config.ts
 ├─ next-env.d.ts
